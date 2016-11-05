@@ -1,0 +1,34 @@
+"*":
+  core:
+    disabledPackages: [
+      "autocomplete-python"
+    ]
+    projectHome: "/Users/wang/Documents/github/atom-project"
+    telemetryConsent: "limited"
+    themes: [
+      "one-light-ui"
+      "solarized-light-syntax"
+    ]
+  editor:
+    preferredLineLength: 120
+    scrollPastEnd: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "6825415d-7158-6bfd-881f-40ad4040b0a3"
+  minimap: {}
+  "tree-view": {}
+  "vim-mode":
+    useSmartcaseForSearch: true
+  whitespace:
+    removeTrailingWhitespace: false
+  "you-complete-me":
+    enabledFiletypes: [
+      "c"
+      "cpp"
+      "objc"
+      "objcpp"
+      "python"
+    ]
+    globalExtraConfig: "/Users/wang/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py"
+    pythonExecutable: "python3"
+    ycmdPath: "/Users/wang/.vim/bundle/YouCompleteMe/third_party/ycmd"
