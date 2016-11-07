@@ -15,9 +15,17 @@
   "exception-reporting":
     userId: "6825415d-7158-6bfd-881f-40ad4040b0a3"
   minimap: {}
+  smalls:
+    jumpTriggerInputLength: 1
   "tree-view": {}
   "vim-mode":
     useSmartcaseForSearch: true
+  "vim-mode-plus":
+    highlightSearch: true
+    incrementalSearch: true
+    useSmartcaseForSearch: true
+  welcome:
+    showOnStartup: false
   whitespace:
     removeTrailingWhitespace: false
   "you-complete-me":
@@ -31,3 +39,41 @@
     globalExtraConfig: "/Users/wang/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py"
     pythonExecutable: "python3"
     ycmdPath: "/Users/wang/.vim/bundle/YouCompleteMe/third_party/ycmd"
+".coffee.source":
+  editor:
+    preferredLineLength: 120
+    tabLength: 2
+".diff":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+".git-commit.text":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+".git-config.source":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+".git-rebase.text":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+".litcoffee.source":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+".objc.source":
+  editor:
+    preferredLineLength: 120
+    softWrap: true
+    tabLength: 4
+".objcpp.source":
+  editor:
+    preferredLineLength: 120
+    softWrap: true
+    tabLength: 4
+".source.strings":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
