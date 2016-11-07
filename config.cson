@@ -3,7 +3,6 @@
     disabledPackages: [
       "autocomplete-python"
     ]
-    projectHome: "/Users/wang/Documents/github/atom-project"
     telemetryConsent: "limited"
     themes: [
       "one-light-ui"
