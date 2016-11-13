@@ -1,7 +1,7 @@
 "*":
   core:
     disabledPackages: [
-      "autocomplete-python"
+      "jumpy"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -14,7 +14,13 @@
     tabLength: 4
   "exception-reporting":
     userId: "6825415d-7158-6bfd-881f-40ad4040b0a3"
+  jumpy:
+    fontSize: 1
+    highContrast: true
   minimap: {}
+  "project-manager":
+    savePathsRelativeToHome: true
+    sortBy: "last modified"
   smalls:
     jumpTriggerInputLength: 1
   "tree-view": {}
@@ -29,13 +35,6 @@
   whitespace:
     removeTrailingWhitespace: false
   "you-complete-me":
-    enabledFiletypes: [
-      "c"
-      "cpp"
-      "objc"
-      "objcpp"
-      "python"
-    ]
     globalExtraConfig: "/Users/wang/.vim/bundle/YouCompleteMe/.ycm_extra_conf.py"
     pythonExecutable: "python3"
     ycmdPath: "/Users/wang/.vim/bundle/YouCompleteMe/third_party/ycmd"
@@ -60,20 +59,6 @@
     preferredLineLength: 120
     tabLength: 4
 ".litcoffee.source":
-  editor:
-    preferredLineLength: 120
-    tabLength: 4
-".objc.source":
-  editor:
-    preferredLineLength: 120
-    softWrap: true
-    tabLength: 4
-".objcpp.source":
-  editor:
-    preferredLineLength: 120
-    softWrap: true
-    tabLength: 4
-".source.strings":
   editor:
     preferredLineLength: 120
     tabLength: 4
