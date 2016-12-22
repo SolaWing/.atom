@@ -37,14 +37,55 @@
 'atom-text-editor.vim-mode-plus:not(.insert-mode)':
   'space space': 'smalls:start'
   'alt-space': 'smalls:start'
+  'cmd-J': 'editor:move-line-down'
+  'cmd-K': 'editor:move-line-up'
 'atom-text-editor.vim-mode-plus.normal-mode':
   'y s': 'vim-mode-plus:surround'
   'd s': 'vim-mode-plus:delete-surround'
   'c s': 'vim-mode-plus:change-surround'
+  'z /': 'vim-mode-plus:clear-highlight-search'
+  'g s': 'user:open-in-gitup'
 'atom-text-editor.vim-mode-plus.visual-mode':
   's': 'vim-mode-plus:surround'
+  'z f': 'editor:fold-selection'
 'atom-text-editor':
   'alt-h': 'core:move-left'
   'alt-j': 'core:move-down'
   'alt-k': 'core:move-up'
   'alt-l': 'core:move-right'
+  
+"atom-text-editor[data-grammar~='gfm']:not([mini])":
+  "shift-cmd-K": "markdown-writer:insert-link"
+  "shift-cmd-I": "markdown-writer:insert-image"
+  "shift-cmd-T": "markdown-writer:insert-table"
+  "cmd-ctrl-i":  "markdown-writer:toggle-italic-text"
+  "cmd-ctrl-b":  "markdown-writer:toggle-bold-text"
+  "cmd-ctrl-'":  "markdown-writer:toggle-code-text"
+  "cmd-ctrl-k":  "markdown-writer:toggle-keystroke-text"
+  "cmd-ctrl-h":  "markdown-writer:toggle-strikethrough-text"
+  'cmd-ctrl->':  "markdown-writer:toggle-blockquote"
+  'cmd-ctrl-"':  "markdown-writer:toggle-codeblock-text"
+  "cmd-ctrl-1":  "markdown-writer:toggle-h1"
+  "cmd-ctrl-2":  "markdown-writer:toggle-h2"
+  "cmd-ctrl-3":  "markdown-writer:toggle-h3"
+  "cmd-ctrl-4":  "markdown-writer:toggle-h4"
+  "cmd-ctrl-5":  "markdown-writer:toggle-h5"
+  "cmd-ctrl-o":  "markdown-writer:toggle-ol"
+  "cmd-ctrl-u":  "markdown-writer:toggle-ul"
+  "cmd-ctrl-t":  "markdown-writer:toggle-task"
+  "cmd-ctrl-T":  "markdown-writer:toggle-taskdone"
+  
+  # "tab":         "markdown-folder:dwim-toggle"
+  # "alt-tab":     "markdown-folder:cycleall"
+  
+"atom-text-editor[data-grammar~='gfm'].vim-mode-plus:not(.insert-mode)":
+  "g k": "markdown-writer:jump-to-previous-heading"
+  "g j": "markdown-writer:jump-to-next-heading"
+  "[ h": "markdown-writer:jump-to-previous-heading"
+  "] h": "markdown-writer:jump-to-next-heading"
+  "g d": "markdown-writer:jump-to-reference-definition"
+  "g t": "markdown-writer:jump-to-next-table-cell"
+  "[ t":  "markdown-writer:toggle-task"
+  "] t":  "markdown-writer:toggle-taskdone"
+  # "g q": "markdown-writer:format-table"
+  # "g q": "markdown-writer:correct-order-list-numbers"

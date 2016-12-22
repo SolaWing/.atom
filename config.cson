@@ -1,7 +1,13 @@
 "*":
+  "autocomplete-python":
+    useKite: false
+  "command-palette":
+    preserveLastSearch: true
   core:
     disabledPackages: [
-      "jumpy"
+      "markdown-preview"
+      "script"
+      "language-gfm"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -17,6 +23,12 @@
   jumpy:
     fontSize: 1
     highContrast: true
+  "markdown-preview": {}
+  "markdown-preview-enhanced":
+    useGitHubStyle: false
+  "markdown-preview-plus": {}
+  "markdown-writer":
+    fileExtension: ".markdown .md"
   minimap: {}
   "project-manager":
     savePathsRelativeToHome: true

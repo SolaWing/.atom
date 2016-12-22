@@ -5,3 +5,6 @@ storage
 .apm
 .node-gyp
 .npm
+__pycache__/
+.DS_Store
+/packages/

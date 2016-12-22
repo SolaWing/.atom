@@ -1,0 +1,16 @@
+aligner@0.22.3
+autocomplete-python@1.8.20
+git-plus@6.0.1
+language-gfm-enhanced@0.88.5
+markdown-preview-enhanced@0.8.9
+markdown-toc@0.4.1
+markdown-writer@2.6.2
+minimap@4.25.7
+project-manager@3.3.3
+relative-numbers@0.6.0
+script@3.13.0
+smalls@0.2.0
+vim-mode-plus@0.66.1
+you-complete-me@0.7.11
+
+

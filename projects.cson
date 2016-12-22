@@ -3,7 +3,21 @@
     title: "Ifengnwsphone"
     group: "ios"
     paths: [
-      "/Users/wang/Desktop/feng/ifengnwsphone"
+      "~/Desktop/feng/ifengnwsphone"
+    ]
+  }
+  {
+    title: "GTD"
+    group: "note"
+    paths: [
+      "~/Desktop/GTD"
+    ]
+  }
+  {
+    title: "Atom"
+    group: "atom"
+    paths: [
+      "~/.atom"
     ]
   }
 ]
