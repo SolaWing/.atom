@@ -8,6 +8,7 @@
       "markdown-preview"
       "script"
       "language-gfm"
+      "markdown-folder"
     ]
     telemetryConsent: "limited"
     themes: [

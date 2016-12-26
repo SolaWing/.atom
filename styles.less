@@ -30,3 +30,18 @@ atom-text-editor {
 atom-text-editor::shadow .cursor {
   // border-color: red;
 }
+
+// show all text when selected or mouse over
+autocomplete-suggestion-list.select-list.popover-list ol.list-group li {
+    line-height: 1em;
+    height: 2em;
+}
+
+autocomplete-suggestion-list li.selected .word,
+autocomplete-suggestion-list li.selected .left-label,
+autocomplete-suggestion-list li.selected .right-label,
+autocomplete-suggestion-list .word:hover,
+autocomplete-suggestion-list .left-label:hover,
+autocomplete-suggestion-list .right-label:hover {
+    white-space: pre-line;
+}
