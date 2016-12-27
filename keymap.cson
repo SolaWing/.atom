@@ -89,3 +89,6 @@
   "] t":  "markdown-writer:toggle-taskdone"
   # "g q": "markdown-writer:format-table"
   # "g q": "markdown-writer:correct-order-list-numbers"
+
+"atom-text-editor[data-grammar~='objc'].vim-mode-plus.insert-mode":
+  ']': 'user:smart-bracket'
