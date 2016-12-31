@@ -45,6 +45,7 @@
   'c s': 'vim-mode-plus:change-surround'
   'z /': 'vim-mode-plus:clear-highlight-search'
   'g s': 'user:open-in-gitup'
+  'c o w': 'editor:toggle-soft-wrap'
 'atom-text-editor.vim-mode-plus.visual-mode':
   's': 'vim-mode-plus:surround'
   'z f': 'editor:fold-selection'

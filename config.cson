@@ -24,6 +24,11 @@
   jumpy:
     fontSize: 1
     highContrast: true
+  linter:
+    ignoreVCSIgnoredFiles: false
+    inlineTooltipInterval: 200
+    lintOnFly: false
+    lintOnFlyInterval: 5000
   "markdown-preview": {}
   "markdown-preview-enhanced":
     useGitHubStyle: false

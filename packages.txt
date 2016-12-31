@@ -3,6 +3,8 @@ autocomplete-python@1.8.23
 coffee-compile@0.24.0
 git-plus@6.0.2
 language-gfm-enhanced@0.88.5
+linter@1.11.18
+linter-coffeescript@1.0.0
 markdown-folder@0.5.0
 markdown-preview-enhanced@0.8.9
 markdown-toc@0.4.1
