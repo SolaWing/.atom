@@ -10,6 +10,7 @@
       "language-gfm"
       "markdown-folder"
     ]
+    packagesWithKeymapsDisabled: []
     telemetryConsent: "limited"
     themes: [
       "one-light-ui"
@@ -64,6 +65,13 @@
   editor:
     preferredLineLength: 120
     tabLength: 4
+".gfm.source":
+  editor:
+    showIndentGuide: false
+    softWrap: false
+    tabLength: 2
+  whitespace:
+    removeTrailingWhitespace: true
 ".git-commit.text":
   editor:
     preferredLineLength: 120
