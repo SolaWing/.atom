@@ -55,7 +55,9 @@
   'alt-k': 'core:move-up'
   'alt-l': 'core:move-right'
   
+# markdown
 "atom-text-editor[data-grammar~='gfm']:not([mini])":
+  "cmd-enter": "markdown-writer:insert-new-line"
   "shift-cmd-K": "markdown-writer:insert-link"
   "shift-cmd-I": "markdown-writer:insert-image"
   "shift-cmd-T": "markdown-writer:insert-table"
@@ -91,5 +93,6 @@
   # "g q": "markdown-writer:format-table"
   # "g q": "markdown-writer:correct-order-list-numbers"
 
+# objc
 "atom-text-editor[data-grammar~='objc'].vim-mode-plus.insert-mode":
   ']': 'user:smart-bracket'

@@ -39,11 +39,12 @@ atom-text-editor:not(.mini)::shadow {
 }
 
 // show all text when selected or mouse over
+autocomplete-suggestion-list.select-list.popover-list ol.list-group li {
+    line-height: 1em;
+    height: 2em;
+}
+
 autocomplete-suggestion-list {
-    ol.list-group li  {
-        line-height: 1em;
-        height: 2em;
-    }
     li.selected .word,
     li.selected .left-label,
     li.selected .right-label,

@@ -9,8 +9,11 @@
       "script"
       "language-gfm"
       "markdown-folder"
+      "markdown-toc"
     ]
-    packagesWithKeymapsDisabled: []
+    packagesWithKeymapsDisabled: [
+      "markdown-writer"
+    ]
     telemetryConsent: "limited"
     themes: [
       "one-light-ui"
@@ -25,13 +28,10 @@
   jumpy:
     fontSize: 1
     highContrast: true
-  linter:
-    ignoreVCSIgnoredFiles: false
-    inlineTooltipInterval: 200
-    lintOnFly: false
-    lintOnFlyInterval: 5000
+  linter: {}
   "markdown-preview": {}
   "markdown-preview-enhanced":
+    openPreviewPaneAutomatically: false
     useGitHubStyle: false
   "markdown-preview-plus": {}
   "markdown-writer":
@@ -67,9 +67,8 @@
     tabLength: 4
 ".gfm.source":
   editor:
-    showIndentGuide: false
     softWrap: false
-    tabLength: 2
+    tabType: "soft"
   whitespace:
     removeTrailingWhitespace: true
 ".git-commit.text":
